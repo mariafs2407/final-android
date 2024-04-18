@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="titulo">
+        <item name="android:fontFamily">@font/extrabold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/color1</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="botonregistrate">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/fondo_blanco</item>
+        <item name="android:textColor">@color/color1</item>
+
+    </style>
+    <style name="botonclasico">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/fondo_boton_clasico</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <style name="botonclasiconormal">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/boton_completo_clasico</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+    <style name="botonescritorionormal">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/boton_completo_escritorio</item>
+        <item name="android:textColor">@color/color1</item>
+        <item name="android:elevation">5dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="botonescritorio">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/fondo_boton_escritorio</item>
+        <item name="android:textColor">@color/color1</item>
+        <item name="android:elevation">5dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_weight">1</item>
+
+    </style>
+    <style name="fondoparaitem">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/fondo_item_normal</item>
+    </style>
+
+</resources>
